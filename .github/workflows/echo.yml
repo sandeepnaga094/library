@@ -1,2 +1,11 @@
+name: echo call from library
+on:
+  workflow_call:
 
-echo "hello from library"
+jobs:
+  build-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echoing
+        run: |
+              sh echo.sh
