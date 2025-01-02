@@ -8,5 +8,6 @@ jobs:
     steps:
       - name: echoing
         run: |
+              echo "helloo"
               ls
               sh ../../echo.sh
