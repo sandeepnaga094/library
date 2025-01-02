@@ -9,5 +9,5 @@ jobs:
       - name: echoing
         run: |
               echo "helloo"
-              ls
+              ls -R
               sh ./echo.sh
