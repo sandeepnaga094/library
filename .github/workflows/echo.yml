@@ -11,4 +11,4 @@ jobs:
         run: |
               echo "helloo"
               ls
-              sh ../../echo.sh
+              sh echo.sh
