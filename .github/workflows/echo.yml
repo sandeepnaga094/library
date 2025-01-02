@@ -8,4 +8,5 @@ jobs:
     steps:
       - name: echoing
         run: |
-              sh echo.sh
+              ls
+              sh ../../echo.sh
