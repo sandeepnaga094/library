@@ -1,0 +1,13 @@
+name: echo call from library
+on:
+  workflow_call:
+
+jobs:
+  build-flow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: echoing
+        run: |
+              echo "helloo"
+              ls -R
+              sh echo.sh
